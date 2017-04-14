@@ -20,7 +20,7 @@
   </head>
   <body>
   
-
+  {% block menu %}
     <nav class="navbar navbar-default">
       <div class="container-fluid" id="menu_container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,9 +59,9 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
+    {% endblock %}
     <div class="container">
-  
+    {% block content %}
       <h1>Hello World!</h1>
       <div class="row">
         <div class="col-sm-6" style="background-color:yellow;">
@@ -73,7 +73,7 @@
       </div>
 
     </div>
-
+    {% endblock %}
   </body>
 </html>
 
