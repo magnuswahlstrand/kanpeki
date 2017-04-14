@@ -1,0 +1,27 @@
+
+.navbar-brand {
+    height: 124px;
+    width: 60px;
+}
+
+#menu_container {
+    padding: 0px;
+    background-image: url('logo_right.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+}
+
+.logo_left {
+    background-image: url('logo_left.png');
+}
+
+.logo_right {
+    background-image: url('logo_right.png');
+}
+
+.navbar-default {
+    background-image: url('menu_bg.png');
+    background-repeat: repeat-x;
+    background-size: 250px 124px;
+}

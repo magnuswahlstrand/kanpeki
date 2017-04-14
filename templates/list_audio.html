@@ -1,0 +1,7 @@
+
+
+<ul>
+   {% for item in audio_files %}
+    <li><a href="/play_sound?path={{ item }}">{{ item }}</a></li>
+    {% endfor %}
+</ul>
